@@ -1,0 +1,61 @@
+.suggestion-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  list-style-type: none;
+  background-color: #ececec;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0px;
+}
+
+.suggestion-text {
+  color: #000000;
+  font-family: "Roboto";
+  font-size: 16px;
+  margin: 0px;
+}
+.url-text {
+  color: #475569;
+  font-family: "Roboto";
+  font-size: 16px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .suggestion-text {
+    font-size: 20px;
+  }
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete {
+  height: 16px;
+  width: 16px;
+}
+
+.social-logo {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .arrow {
+    height: 24px;
+    width: 24px;
+  }
+}
